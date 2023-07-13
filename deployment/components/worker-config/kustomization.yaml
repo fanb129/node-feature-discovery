@@ -6,5 +6,5 @@ generatorOptions:
 
 configMapGenerator:
 - files:
-  - nfd-worker.conf=nfd-worker.conf
+  - nfd-worker.conf=nfd-worker.conf.example
   name: nfd-worker-conf
