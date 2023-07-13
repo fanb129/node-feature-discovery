@@ -6,5 +6,5 @@ generatorOptions:
 
 configMapGenerator:
 - files:
-  - nfd-master.conf=nfd-master.conf.example
+  - nfd-master.conf=nfd-master.conf
   name: nfd-master-conf
