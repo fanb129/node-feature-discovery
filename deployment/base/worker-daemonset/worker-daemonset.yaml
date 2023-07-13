@@ -17,7 +17,7 @@ spec:
       dnsPolicy: ClusterFirstWithHostNet
       containers:
         - name: nfd-worker
-          image: gcr.io/k8s-staging-nfd/node-feature-discovery:master
+          image: gcr.lank8s.cn/k8s-staging-nfd/node-feature-discovery:master
           imagePullPolicy: Always
           command:
             - "nfd-worker"
